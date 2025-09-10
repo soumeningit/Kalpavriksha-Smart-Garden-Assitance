@@ -40,11 +40,11 @@ export default function LogIn() {
           name: response.data.data.name,
           email: response.data.data.email,
         });
-        navigate("/dashboard/profile", {
-          state: {
-            userId: response.data.data.id,
-          },
-        });
+        // navigate("/dashboard/profile", {
+        //   state: {
+        //     userId: response.data.data.id,
+        //   },
+        // });
       }
     } catch (error) {
       toast.dismiss(toastId);
