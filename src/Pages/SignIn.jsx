@@ -56,13 +56,10 @@ export default function LogIn() {
     e.preventDefault();
 
     const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
-    const backendUrl = import.meta.env.VITE_BACKEND_URL;
-
-    const redirectUri = `${backendUrl}/api/auth/google/callback`; // backend
+    const redirectBackendUri = import.meta.env.VITE_REDIRECT_URI;
+    const redirectUri = `${redirectBackendUri}/api/auth/google/callback`;
     const scope = "openid profile email";
     const responseType = "code";
-
-    console.log("redirectUri:", redirectUri);
 
     window.location.href =
       `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}` +
