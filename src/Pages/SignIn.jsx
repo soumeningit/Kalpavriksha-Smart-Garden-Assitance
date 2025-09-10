@@ -35,11 +35,11 @@ export default function LogIn() {
       console.log("response:", response);
       if (response.status === 200) {
         toast.success("Logged in successfully!");
-        addData(response.data.data.token, {
-          userId: response.data.data.id,
-          name: response.data.data.name,
-          email: response.data.data.email,
-        });
+        // addData(response.data.data.token, {
+        //   userId: response.data.data.id,
+        //   name: response.data.data.name,
+        //   email: response.data.data.email,
+        // });
         // navigate("/dashboard/profile", {
         //   state: {
         //     userId: response.data.data.id,
