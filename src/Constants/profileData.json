@@ -1,0 +1,73 @@
+{
+  "gardenStats": [
+    {
+      "value": 12,
+      "label": "Total Plants",
+      "icon": "LuSprout",
+      "color": "bg-green-100 text-green-800"
+    },
+    {
+      "value": 3,
+      "label": "Need Water",
+      "icon": "GiWaterDrop",
+      "color": "bg-blue-100 text-blue-800"
+    },
+    {
+      "value": 1,
+      "label": "Pest Alert",
+      "icon": "GiBugleCall",
+      "color": "bg-red-100 text-red-800"
+    },
+    {
+      "value": 5,
+      "label": "Thriving",
+      "icon": "HiOutlineSparkles",
+      "color": "bg-yellow-100 text-yellow-800"
+    }
+  ],
+  "plants": [
+    {
+      "name": "Tomato Plant",
+      "status": "Fruiting",
+      "image": "https://images.unsplash.com/photo-1598512752271-33f913a5af13?w=500"
+    },
+    {
+      "name": "Basil",
+      "status": "Healthy",
+      "image": "https://images.unsplash.com/photo-1594313019941-a90352c92a83?w=500"
+    },
+    {
+      "name": "Snake Plant",
+      "status": "Needs Water",
+      "image": "https://images.unsplash.com/photo-1593482815611-34a2b92138a2?w=500"
+    },
+    {
+      "name": "Rose Bush",
+      "status": "Flowering",
+      "image": "https://images.unsplash.com/photo-1549744578-fe12b074a38e?w=500"
+    }
+  ],
+  "userData": {
+    "name": "Aarav Sharma",
+    "handle": "@aarav_grows",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop",
+    "coverPhoto": "https://images.unsplash.com/photo-1491147334573-44cbb4602074?q=80&w=1887&auto=format&fit=crop"
+  },
+  "activityFeed": [
+    {
+      "icon": "GiWaterDrop",
+      "text": "You watered your Tomato Plant.",
+      "time": "2 hours ago"
+    },
+    {
+      "icon": "FiPlusCircle",
+      "text": "You added a new Snake Plant to your garden.",
+      "time": "1 day ago"
+    },
+    {
+      "icon": "LuSprout",
+      "text": "Your Rose Bush has started flowering!",
+      "time": "3 days ago"
+    }
+  ]
+}

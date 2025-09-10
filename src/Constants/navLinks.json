@@ -1,0 +1,9 @@
+[
+  { "name": "Home", "dest": "/" },
+  { "name": "Features", "dest": "/features" },
+  { "name": "How It Works", "dest": "/how-it-works" },
+  { "name": "About", "dest": "/about-us" },
+  { "name": "Contact", "dest": "/contact-us" },
+  { "name": "Pricing", "dest": "/pricing" },
+  { "name": "Blog", "dest": "/blog/dashboard" }
+]

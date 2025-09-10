@@ -1,0 +1,98 @@
+{
+  "plans": {
+    "monthly": [
+      {
+        "name": "Free",
+        "price": "₹0",
+        "features": [
+          "Up to 3 plants",
+          "Basic AI Diagnostics (3 scans/month)",
+          "Community Forum Access",
+          "Email Support"
+        ],
+        "cta": "Start for Free"
+      },
+      {
+        "name": "Plus",
+        "price": "₹299",
+        "popular": true,
+        "features": [
+          "Up to 50 plants",
+          "Unlimited AI Diagnostics",
+          "Advanced Plant Care Schedules",
+          "Personalized Growth Analytics",
+          "Priority Email Support"
+        ],
+        "cta": "Choose Plus"
+      },
+      {
+        "name": "Pro",
+        "price": "₹499",
+        "features": [
+          "Unlimited plants",
+          "All Pro features",
+          "Community Workshop Access",
+          "Multi-user Collaboration (3 seats)",
+          "Dedicated Phone Support"
+        ],
+        "cta": "Go Pro"
+      }
+    ],
+    "yearly": [
+      {
+        "name": "Free",
+        "price": "₹0",
+        "features": [
+          "Up to 3 plants",
+          "Basic AI Diagnostics (5 scans/month)",
+          "Community Forum Access",
+          "Email Support"
+        ],
+        "cta": "Start for Free"
+      },
+      {
+        "name": "Plus",
+        "price": "₹2999",
+        "popular": true,
+        "features": [
+          "Up to 50 plants",
+          "Unlimited AI Diagnostics",
+          "Advanced Plant Care Schedules",
+          "Personalized Growth Analytics",
+          "Priority Email Support"
+        ],
+        "cta": "Choose Plus"
+      },
+      {
+        "name": "Pro",
+        "price": "₹4999",
+        "features": [
+          "Unlimited plants",
+          "All Pro features",
+          "Community Workshop Access",
+          "Multi-user Collaboration (3 seats)",
+          "Dedicated Phone Support"
+        ],
+        "cta": "Go Pro"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I change my plan later?",
+      "a": "Absolutely! You can upgrade or downgrade your plan at any time from your account settings. Changes will be prorated."
+    },
+    {
+      "q": "What happens if I exceed the plant limit on the Sprout plan?",
+      "a": "You'll receive a notification to upgrade your plan to add more plants. You won't be able to add new plants until you upgrade."
+    },
+    {
+      "q": "Is there a discount for yearly billing?",
+      "a": "Yes! By choosing the yearly billing option, you get two months free compared to the monthly plan."
+    },
+    {
+      "q": "What is your cancellation policy?",
+      "a": "You can cancel your subscription at any time. You will retain access to your plan's features until the end of your current billing cycle."
+    }
+  ]
+}

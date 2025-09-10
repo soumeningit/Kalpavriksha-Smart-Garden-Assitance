@@ -1,0 +1,35 @@
+{
+  "quickLinks": [
+    { "name": "Home", "url": "/" },
+    { "name": "About Us", "url": "/about-us" },
+    { "name": "Features", "url": "/features" },
+    { "name": "Contact", "url": "/contact-us" }
+  ],
+  "terms": [
+    { "name": "Terms & Conditions", "url": "/terms" },
+    { "name": "Privacy Policy", "url": "/privacy" },
+    { "name": "Disclaimer", "url": "/disclaimer" }
+  ],
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yourusername",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/yourusername",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/yourusername",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/yourusername",
+      "icon": "FaInstagram"
+    }
+  ]
+}

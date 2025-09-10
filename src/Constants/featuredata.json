@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "Leaf",
+    "title": "Smart Plant Guide",
+    "description": "Don't know what to grow? Get personalized plant recommendations for Kolkata's climate, right for your balcony or rooftop."
+  },
+  {
+    "icon": "Bot",
+    "title": "AI-Powered Care Assistant",
+    "description": "Snap a photo of your plant to diagnose diseases, get watering reminders, and receive expert care tips to help your plants thrive."
+  },
+  {
+    "icon": "Users",
+    "title": "Community of Gardeners",
+    "description": "Connect with fellow plant lovers in Kolkata. Share your progress, exchange seeds, and build a greener city together."
+  }
+]

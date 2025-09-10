@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "label": "Profile", "link": "/dashboard/profile", "icon": "👤" },
+    { "label": "Settings", "link": "/dashboard/settings", "icon": "⚙️" },
+    {
+      "label": "Logout",
+      "link": "/dashboard/logout",
+      "isDestructive": true,
+      "icon": "🚪"
+    }
+  ]
+}

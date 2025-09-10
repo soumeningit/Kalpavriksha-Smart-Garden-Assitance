@@ -1,0 +1,39 @@
+{
+  "sidebarNavItems": [
+    {
+      "name": "Home",
+      "icon": "FiHome",
+      "to": "/"
+    },
+    {
+      "name": "Profile",
+      "icon": "RxDashboard",
+      "to": "/dashboard/profile"
+    },
+    {
+      "name": "My Garden",
+      "icon": "GiSprout",
+      "to": "/dashboard/my-garden"
+    },
+    {
+      "name": "Plant Identifier",
+      "icon": "MdQrCodeScanner",
+      "to": "/dashboard/identifier"
+    },
+    {
+      "name": "Community",
+      "icon": "FaUserSecret",
+      "to": "/dashboard/community"
+    },
+    {
+      "name": "Settings",
+      "icon": "IoSettingsOutline",
+      "to": "/dashboard/settings"
+    },
+    {
+      "name": "Ask AI",
+      "icon": "TbMessageChatbot",
+      "to": "/dashboard/chat-with-llm"
+    }
+  ]
+}

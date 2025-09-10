@@ -1,0 +1,69 @@
+{
+  "currentUser": {
+    "name": "Aarav",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop"
+  },
+
+  "initialPosts": [
+    {
+      "id": 1,
+      "author": "Priya Das",
+      "avatar": "https://images.unsplash.com/photo-1582233479579-f2e1281a44c2?q=80&w=1887&auto=format&fit=crop",
+      "time": "2 hours ago",
+      "content": "My rooftop tomato plants are finally bearing fruit! So excited for the first harvest. The Kolkata sun is working its magic! 🍅☀️ #RooftopGarden",
+      "image": "https://images.unsplash.com/photo-1598512752271-33f913a5af13?q=80&w=1887&auto=format&fit=crop",
+      "likes": 42,
+      "comments": [
+        {
+          "id": 1,
+          "author": "Rohan Mehta",
+          "avatar": "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop",
+          "text": "They look amazing, Priya! Great job."
+        },
+        {
+          "id": 2,
+          "author": "Sunita Banerjee",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop",
+          "text": "Wow! Any tips for a beginner?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "author": "Rohan Mehta",
+      "avatar": "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop",
+      "time": "5 hours ago",
+      "content": "Does anyone have tips for dealing with mealybugs on hibiscus plants? Tried neem oil but they keep coming back. #PestControl #Help",
+      "image": null,
+      "likes": 15,
+      "comments": [
+        {
+          "id": 3,
+          "author": "Priya Das",
+          "avatar": "https://images.unsplash.com/photo-1582233479579-f2e1281a44c2?q=80&w=1887&auto=format&fit=crop",
+          "text": "Try a solution of isopropyl alcohol and water. It works wonders for me."
+        }
+      ]
+    }
+  ],
+
+  "trendingTopics": [
+    "#RooftopGarden",
+    "#KolkataBlooms",
+    "#OrganicTips",
+    "#PestControl",
+    "#MonsoonGardening"
+  ],
+  "upcomingEvents": [
+    {
+      "name": "Urban Composting Workshop",
+      "date": "Sept 14, 2025",
+      "location": "Online Webinar"
+    },
+    {
+      "name": "Seed Exchange Meetup",
+      "date": "Sept 21, 2025",
+      "location": "Rabindra Sarobar"
+    }
+  ]
+}
