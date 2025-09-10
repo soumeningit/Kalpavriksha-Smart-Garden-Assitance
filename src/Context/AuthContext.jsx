@@ -55,6 +55,7 @@ function AuthContextProvider({ children }) {
   }
 
   async function handleRemove() {
+    console.log("Calling refresh token API...");
     try {
       const response = await refreshTokenAPI();
       console.log("Refresh token response:", response);
