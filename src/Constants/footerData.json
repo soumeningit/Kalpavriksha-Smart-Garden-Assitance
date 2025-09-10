@@ -13,8 +13,13 @@
   "socialLinks": [
     {
       "name": "GitHub",
-      "url": "https://github.com/yourusername",
+      "url": "https://github.com/soumeningit",
       "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/soumenpal01",
+      "icon": "FaLinkedin"
     },
     {
       "name": "Twitter",

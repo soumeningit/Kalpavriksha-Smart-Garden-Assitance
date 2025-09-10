@@ -10,6 +10,8 @@ import {
 } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import registration_image from "../assets/Register.png";
+import toast from "react-hot-toast";
+import { registerUserAPI } from "../Service/Operation/AuthService";
 
 export default function Register() {
   const [data, setData] = useState({
@@ -33,7 +35,7 @@ export default function Register() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (data.password !== data.confirmPassword) {
@@ -41,6 +43,30 @@ export default function Register() {
       return;
     }
     setSuccess("Password matched!");
+
+    const toastId = toast.loading("Creating your account...");
+
+    try {
+      const response = await registerUserAPI(data);
+      if (response.status === 201) {
+        setSuccess("Account created successfully! Please verify your email.");
+        setData({
+          name: "",
+          email: "",
+          password: "",
+          confirmPassword: "",
+        });
+        toast.success(
+          "Account created successfully! Please verify your email.",
+          { id: toastId }
+        );
+      }
+    } catch (error) {
+      setError(
+        error?.response?.data?.data?.message ||
+          "Error creating account. Please try again."
+      );
+    }
   };
 
   async function handleGoogleSignIn(e) {

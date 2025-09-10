@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { LuLeaf, LuArrowUp } from "react-icons/lu";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -16,6 +16,7 @@ export default function Footer() {
     FaTwitter: FaTwitter,
     FaFacebook: FaFacebook,
     FaInstagram: FaInstagram,
+    FaLinkedin: FaLinkedin,
   };
 
   // Show button when page is scrolled down
