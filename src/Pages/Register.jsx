@@ -52,6 +52,8 @@ export default function Register() {
     const scope = "openid profile email";
     const responseType = "code";
 
+    console.log("redirectUri:", redirectUri);
+
     window.location.href =
       `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}` +
       `&redirect_uri=${redirectUri}` +
