@@ -47,8 +47,8 @@ export default function Register() {
     e.preventDefault();
 
     const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
-    console.log("Client ID:", clientId);
-    const redirectUri = "http://localhost:8080/api/auth/google/callback"; // backend
+    const backendUrl = import.meta.env.VITE_BACKEND_URL;
+    const redirectUri = `${backendUrl}/api/auth/google/callback`; // backend
     const scope = "openid profile email";
     const responseType = "code";
 
