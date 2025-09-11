@@ -55,7 +55,31 @@ function AuthContextProvider({ children }) {
   }
 
   async function handleRemove() {
-    console.log("Calling refresh token API...");
+    // async function handleRemove() {
+    //   console.log("Calling refresh token API...");
+    //   try {
+    //     const response = await refreshTokenAPI();
+    //     console.log("Refresh token response:", response);
+    //     if (response.status === 200 && response.data.data.token) {
+    //       const newToken = response.data.data.token;
+    //       const newUser = {
+    //         name: response.data.data.name,
+    //         email: response.data.data.email,
+    //         userId: response.data.data.id,
+    //         role: response.data.data.role,
+    //       };
+    //       addData(newToken, newUser);
+    //       return true;
+    //     }
+    //     removeData();
+    //     return true;
+    //   } catch (error) {
+    //     handleLogout();
+    //     console.error("Error in refreshing token:", error);
+    //     removeData(); // fallback
+    //     return true;
+    //   }
+    // }
     try {
       const response = await refreshTokenAPI();
       console.log("Refresh token response:", response);
