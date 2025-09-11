@@ -32,7 +32,7 @@ export default function LogIn() {
     try {
       const response = await loginUserAPI(data);
       toast.dismiss(toastId);
-      console.log("response:", response);
+      console.log("response in sign in:", response);
       if (response.status === 200) {
         toast.success("Logged in successfully!");
         addData(response.data.data.token, {
